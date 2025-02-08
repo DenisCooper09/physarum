@@ -7,3 +7,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS ON)
 
 add_subdirectory(src bin)
+
+include(libs/libs.cmake)
+build_libraries()
